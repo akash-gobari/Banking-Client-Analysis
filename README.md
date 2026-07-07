@@ -204,8 +204,8 @@ jupyter notebook
 #    → notebooks/02_banking_hypothesis_testing.ipynb
 ```
 
-> **Power BI:** Open `dashboard/Banking_Dashboard.pbix` in Power BI Desktop.
-> Update the data source path to point to `data/Banking_cleaned_for_EDA.xlsx`.
+> **Power BI:** Open `Dashboard/Banking_analysis_dashboard.pbix` in Power BI Desktop.
+> Update the data source path to point to `Data/banking_after_EDA.csv`.
 
 ---
 
@@ -222,7 +222,7 @@ jupyter notebook
 ## 📄 Project Report
 
 The full written report is available in:
-`reports/Banking_Portfolio_Report.docx`
+`reports/Project_Report.pdf`
 
 It covers all four phases with tables, statistical interpretations,
 business recommendations, and a Power BI dashboard review.
