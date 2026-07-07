@@ -40,33 +40,34 @@ analyst would deliver to a banking product or strategy team.
 ```
 banking-client-analysis/
 │
-├── 📂 data/
-│   └── Banking_cleaned_for_EDA.xlsx        # Cleaned source dataset
+├── 📂 Dashboard/
+│   ├──1_Dashboard_Home.jpeg
+│   ├──2_Dashboard_Loan_Analysis.jpeg
+│   ├──3_Dashboard_Deposit_Analysis.jpeg
+│   ├──4_Dashboard_Summary.jpeg
+│   ├──Banking_analysis_dashboard.pbix
+│ 
+├── 📂 Data/
+│   ├──Banking_Data_Dictionary.xlsx
+│   ├──Banking_clenaed_for_EDA.xlsx
+│   ├──Banking_raw.csv
+│   └── banking_after_EDA.csv        
 │
 ├── 📂 notebooks/
-│   ├── 01_EDA_Banking.ipynb                # Exploratory Data Analysis
-│   └── 02_banking_hypothesis_testing.ipynb # Hypothesis Testing (7 tests)
+│   ├── 01_EDA_Banking.ipynb                  # Exploratory Data Analysis
+│   └── 02_banking_hypothesis_testing.ipynb   # Hypothesis Testing (7 tests)
 │
 ├── 📂 reports/
 │   ├── Banking_Portfolio_Report.docx       # Full project report (Word)
-│   └── Results_hypothesis_testing/         # Saved hypothesis test charts
+│   ├── Results
+│       ├── 01_numerical_distribution.png
+│       ├── 02_boxplots_outlier.png
+│       └──  ...
+│   
+│   ├── Results_hypothesis_testing/         # Saved hypothesis test charts
 │       ├── 01_Estimated_Income_vs_Total_Assets.png
 │       ├── 02_Estimated_Income_vs_Net_Worth.png
-│       ├── 03_risk_weighting_boxplot.png
-│       ├── 04_tenure_vs_assets.png
-│       ├── 05_account_diversity_vs_networth.png
-│       ├── 06_loyalty_vs_total_assets.png
-│       └── 07_age_group_vs_risk.png
-│
-├── 📂 dashboard/
-│   └── Banking_Dashboard.pbix              # Power BI dashboard (4 pages)
-│
-├── 📂 eda_outputs/                         # EDA chart exports
-│   ├── 01_missing_values.png
-│   ├── 02_dist_estimated_income.png
-│   ├── 03_categorical_distributions.png
-│   ├── 04_correlation_heatmap.png
-│   └── 05_loyalty_breakdown.png
+│       └──  ...       
 │
 └── README.md
 ```
@@ -236,5 +237,5 @@ and business storytelling through dashboards.
 
 **Open to data analyst, business analyst, and analytics engineer roles.**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin)](https://linkedin.com/in/YOUR_PROFILE)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?logo=github)](https://github.com/YOUR_USERNAME)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin)](https://www.linkedin.com/in/akashgobari/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?logo=github)](https://github.com/akash-gobari)
