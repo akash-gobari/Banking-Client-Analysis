@@ -189,7 +189,7 @@ cross-sell opportunity in this dataset.
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/banking-client-analysis.git
+git clone https://github.com/akash-gobari/Banking-Client-Analysis.git
 cd banking-client-analysis
 
 # 2. Install dependencies
@@ -214,7 +214,7 @@ jupyter notebook
 
 | Distribution Analysis | Hypothesis Testing Summary |
 |----------------------|---------------------------|
-| ![EDA](eda_outputs/02_dist_estimated_income.png) | ![HT](reports/Results_hypothesis_testing/01_Estimated_Income_vs_Total_Assets.png) |
+| ![EDA](reports/Results/01_numerical_distribution.png) | ![HT](reports/Results_hypothesis_testing/01_Estimated_Income_vs_Total_Assets.png) |
 
 ---
 
